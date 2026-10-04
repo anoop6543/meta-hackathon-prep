@@ -1,0 +1,2 @@
+# src/ is standard-library only. pytest is needed only for tests/.
+pytest>=8
