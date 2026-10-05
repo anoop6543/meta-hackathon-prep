@@ -45,6 +45,9 @@ No dependencies beyond the standard library for `src/`; `pytest` for tests.
 | `docs/ARCHITECTURE.md` | Embodied-agent pipeline, components, trust boundaries |
 | `docs/META_MODEL_API.md` | What we know about the API, env setup, $150 credit budget |
 | `docs/SAFETY.md` | Physical-safety rules (required reading before any hardware motion) |
+| `docs/PI_WATCH_SETUP.md` | Pi + Watch 4 bring-up, demo script |
+| `pi_gadget/agent_commands.py` | Gadget commands for the Pi: `agent.plan`, `agent.run`, `agent.status` (+ deploy notes in `pi_gadget/README.md`) |
+| `watch_dashboard/agent_dashboard.py` | Watch 4 agent-activity dashboard (stdlib, `:8101`) |
 | `src/meta_model_client.py` | Thin Meta Model API client; offline demo mode until the API is live |
 | `src/digital_twin.py` | 6DOF arm simulator, geometry from the real URDF |
 | `src/safety_harness.py` | Validation layer: limits, velocity, workspace, approval gates |

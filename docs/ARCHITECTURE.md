@@ -68,3 +68,16 @@ Build and demo against the twin; promote the identical plan schema to
 hardware only after the muse-home-lab bring-up phases pass. The hackathon
 submission video can be recorded entirely from the twin — narrated telemetry
 (plan → verdict → motion) is the story, not the room the robot sits in.
+
+## Pi + Watch 4 wiring
+
+- **Pi (gadget host).** `pi_gadget/agent_commands.py` adds `agent.plan`,
+  `agent.run`, `agent.status` to the Pi's gadget executor (same command-spec
+  pattern as `home.hello`/`home.lan_scan`). The Pi runs the whole pipeline
+  locally: planner → harness → twin. Every `agent.run` writes a JSON trace
+  to the spool dir (`var/agent/`, `AGENT_SPOOL_DIR` to override).
+- **Watch 4 (docked display).** `watch_dashboard/agent_dashboard.py` serves a
+  watch-friendly page on `:8101` (LAN-only, read-only) showing the latest
+  trace: command, intent, safety verdict, moves, end-effector pose.
+  Auto-refreshes every 10 s — this is the demo's live telemetry.
+- Full bring-up and the submission-video demo script: `docs/PI_WATCH_SETUP.md`.
