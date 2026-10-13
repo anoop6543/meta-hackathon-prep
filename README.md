@@ -6,12 +6,12 @@ virtual hackathon from Meta Superintelligence Labs. Build on Meta's newest
 models through the Meta Model API. $1M cash prize pool; every participant gets
 $150 of Meta Model API credits.
 
-**Status (2026-10-03):** applications are NOT open yet — the event page is a
-notify-me signup only. Viswa is registered for the notification on both
-`anoop6543@gmail.com` and `13464home@gmail.com` (marketing consent off).
-No tracks, dates, eligibility rules, or judging criteria published yet.
-This repo exists so that the day applications open, the build starts from a
-running baseline instead of a blank page.
+**Status (2026-10-13):** application SUBMITTED via Cerebral Valley — Indie
+Dev Track, "Push the Frontier" theme, project: Safe Embodied Agent. Status:
+Pending review; approvals are announced by Oct 26, 2026, and the hackathon
+runs Oct 26 – Nov 4, 2026. This repo is the running baseline the build starts
+from, so the 10 days go to the live Meta Model API integration and hardware
+execution rather than a blank page.
 
 ## Strategy in one paragraph
 
